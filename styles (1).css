@@ -1,0 +1,107 @@
+/* 🌸 Font and Background */
+body {
+  margin: 0;
+  font-family: 'Outfit',Sans-Serif;
+  background: linear-gradient(to bottom right, #f9ecec, #e8e1f7);
+  color: #3a2e2e;
+}
+
+/* 🪷 Header Section */
+header {
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+  padding: 80px 20px 30px;
+  background: linear-gradient(to right, #fbe9f0, #f0e7fc);
+  border-bottom: 1px solid #e3c9d8;
+}
+
+header h1 {
+  font-family: 'Times New Roman', serif;
+  font-size: 3.2rem;
+  color: #4b2e2e;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.3rem;
+  color: #6e4c4c;
+}
+
+/* 🧁 Section Layout */
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid #dcaac3;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  color: #583c3c;
+}
+
+/* 🎀 Reusable Boxes */
+.project, .skill, .contact-item {
+  .button-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;       
+  
+function createPetal() {
+  const petal = document.createElement("div");
+  petal.classList.add("petal");
+  petal.style.left = Math.random() * 100 + "vw";
+  document.body.appendChild(petal); 
+  justify-content: center;
+  soft-button:hover {
+  background: linear-gradient(to right, #fce4ec, #e0e7f9);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  .project-title {
+  font-weight: 600;
+  color: #4e2a2a;
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+}
+
+.project-title {
+  font-weight: 600;
+  color: #4e2a2a;
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+/* ✨ Link Styling */
+a {
+  color: #b36985;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 🌷 Footer */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+  color: #745d5e;
+  background: #46d46d;
+  border-top: 1px solid #ecd9e5;
+}
+
+/* 🧚 Optional List Reset */
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px;
+}
